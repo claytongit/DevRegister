@@ -5,15 +5,3 @@ export const isAuthenticated = () => {
         return false;
     }
 }
-
-//localStore.setIntem(response.data.token);
-
-/*
-const token = localStore.getItem('token');
-api.get('/', {
-    headers: {
-        Authorization: `Bearer ${token}`,
-    }
-});
-
-*/

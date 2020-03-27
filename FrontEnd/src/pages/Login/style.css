@@ -1,0 +1,51 @@
+.login-container{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+}
+.login-container section{
+    margin: 0 auto;
+}
+.login-container .contante{
+    width: 30%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+}
+.login-container .contante form{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+.login-container .contante .link{
+    margin: 15px 10px;
+}
+.login-container .contante .link span{
+    color: #72B0E9;
+}
+.login-container .contante .link a{
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 300;
+}
+.login-container .contante .link a:hover{
+    text-decoration: underline;
+}
+
+@media (max-width: 1200px){
+    .login-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .login-container section img{
+        width: 100%;
+    }
+    .login-container .contante{
+        width: 90%;
+    }
+}

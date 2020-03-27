@@ -1,0 +1,49 @@
+.register-container{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+}
+.register-container section{
+    margin: 0 auto;
+}
+.register-container .contante{
+    width: 30%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+}
+.register-container .contante form{
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+}
+.register-container .contante .link{
+    margin: 15px 10px;
+}
+.register-container .contante .link a{
+    margin: 0 15px;
+    text-decoration: none;
+    color: #72B0E9;
+    font-weight: 500;
+}
+.register-container .contante .link a:hover{
+    text-decoration: underline;
+}
+
+@media (max-width: 1200px){
+    .register-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .register-container section img{
+        width: 100%;
+    }
+    .register-container .contante{
+        width: 90%;
+        align-items: center;
+    }
+}
